@@ -35,7 +35,8 @@ let elements = {
 	},
 	class: {
 		desc: "This function is intended to be called with the \"new\" keyword.",
-			detail: "[<type> <name>]", snip: "\\{{{type}}\\} {{name}}"
+		detail: "[<type> <name>]",
+		snip: "\\{{{type}}\\} {{name}}"
 	},
 	classdesc: {
 		desc: "Use the following text to describe the entire class.",
@@ -130,7 +131,8 @@ let elements = {
 	},
 	interface: {
 		desc: "This symbol is an interface that others can implement.",
-			detail: "[<name>]", snip: "{{name}}"
+		detail: "[<name>]",
+		snip: "{{name}}"
 	},
 	kind: {
 		desc: "What kind of symbol is this?",
@@ -297,6 +299,5 @@ elements.arg = elements.argument = elements.param;
 elements.prop = elements.property;
 elements.return = elements.returns;
 elements.exception = elements.throws;
-
 
 module.exports = elements;
