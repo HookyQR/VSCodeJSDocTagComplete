@@ -1,0 +1,33 @@
+{
+	"name": "JSDocTagComplete",
+	"displayName": "Complete JSDoc Tags",
+	"description": "Provides code completion while editing JSDoc comments",
+	"version": "0.0.1",
+	"publisher": "HookyQR",
+	"engines": {
+		"vscode": "^0.10.5"
+	},
+	"categories": [
+		"Languages", "Snippets"
+	],
+	"icon": "icon.svg",
+	"galleryBanner": {
+		"color": "#e8e030",
+		"theme": "light"
+	},
+	"license": "MIT",
+	"main": "./extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HookyQR/VSCodeJSDocTagComplete"
+	},
+	"bugs": {
+		"url": "https://github.com/HookyQR/VSCodeJSDocTagComplete/issues"
+	},
+	"activationEvents": [
+		"onLanguage:javascript"
+	],
+	"devDependencies": {
+		"vscode": "0.10.x"
+	}
+}
