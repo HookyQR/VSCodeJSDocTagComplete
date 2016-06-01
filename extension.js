@@ -48,7 +48,7 @@ function activate(context) {
 			return completions;
 		}
 	};
-	let disp = vscode.languages.registerCompletionItemProvider("javascript", provider, ["@"]);
+	let disp = vscode.languages.registerCompletionItemProvider(["javascript","typescript"], provider, ["@"]);
 	context.subscriptions.push(disp);
 }
 exports.activate = activate;

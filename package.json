@@ -2,7 +2,7 @@
 	"name": "JSDocTagComplete",
 	"displayName": "Complete JSDoc Tags",
 	"description": "Provides code completion while editing JSDoc comments",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "HookyQR",
 	"engines": {
 		"vscode": "^0.10.5"
@@ -25,7 +25,8 @@
 		"url": "https://github.com/HookyQR/VSCodeJSDocTagComplete/issues"
 	},
 	"activationEvents": [
-		"onLanguage:javascript"
+		"onLanguage:javascript",
+		"onLanguage:typescript"
 	],
 	"devDependencies": {
 		"vscode": "0.10.x"

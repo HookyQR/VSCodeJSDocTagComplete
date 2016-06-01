@@ -12,3 +12,7 @@ The InteliSense detail element indicates the format of any follow-on requirement
 Descriptions and completion suggestions from documentation at [@Use JSDoc](http://usejsdoc.org/index.html).
 
 See [@Use JSDoc](http://usejsdoc.org/index.html) for details on how to use JSDoc.
+
+##Changes:
+#### 0.0.2
+* Add typescript as supported document type.
